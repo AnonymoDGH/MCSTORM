@@ -1,6 +1,7 @@
 const http = require("https");
 const querystring = require('querystring');
 const token = process.env['token']
+const keep_alive = require('./keep_alive.js')
 
 const { Client, Events, GatewayIntentBits, EmbedBuilder  } = require('discord.js');
 const { botToken, attackChannelId, plans, mcstormApiToken } = require('./config.json');
