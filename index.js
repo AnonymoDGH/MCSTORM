@@ -1,5 +1,6 @@
 const http = require("https");
 const querystring = require('querystring');
+const token = process.env['token']
 
 const { Client, Events, GatewayIntentBits, EmbedBuilder  } = require('discord.js');
 const { botToken, attackChannelId, plans, mcstormApiToken } = require('./config.json');
@@ -138,4 +139,4 @@ client.on(Events.MessageCreate, msg => {
 });
 
 // log in to the bot
-client.login(botToken);
+client.login(token);
