@@ -1,6 +1,6 @@
 {
-	"botToken": "YOUR_BOT_TOKEN_HERE",
-	"attackChannelId": "YOUR_ATTACK_CHANNEL_HERE",
+	"botToken": "token",
+	"attackChannelId": "1201642270311592086",
 	"mcstormApiToken": "AG82PBNBV0LQJT6RF1LKR3Y5CFG5DEKWF79A2AZ9REGYC51J7PNR7X4NZSWDO2IY",
 	"plans": [
 		{
@@ -8,7 +8,7 @@
 			"time": 30,
 			"network": 1,
 			"concurrent": 1,
-			"role": "PLAN_ROLE_ID_HERE"
+			"role": "1201642593944076428"
 		},
 		{
 			"tarrif": "basic",
