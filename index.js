@@ -32,7 +32,7 @@ function getEmbed(message, ip, protocol, method, tarrif, time, content = "starti
 		)
 		.setImage("https://i.pinimg.com/originals/37/b3/35/37b335163c44284c8750cb9885461952.gif")
 		.setTimestamp()
-		.setFooter({ text: 'Powered by MCSTORM', iconURL: 'https://mcstorm.is/assets/image/mcstorm-favicon.png' });
+		.setFooter({ text: 'Powered by popbob', iconURL: 'https://cdn.discordapp.com/avatars/883539400447901746/36f9e2388bafecd444a3dd59eb7f764e.webp?size=2048' });
 
 	return embed;
 }
